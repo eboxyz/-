@@ -1,0 +1,821 @@
+<head>
+  <title>Leyen Food</title>
+    <link rel="stylesheet" type="text/css" href="../style/productstyle.css">
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="background">
+  <div id="topWrapper">
+    <div class="logo"></div>
+  </div>
+  <nav class="flex-nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="vendor.html">Vendor</a></li>
+      <li><a href="location.html">Locations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <div id="productPicture" class="col-lg-8">
+      <div id="chickenStock" class="col-md-7">
+        <a href="#poultryCategories" class="pageJump">
+        <img src="../pictures/photos/products/boxPoultry.jpg" id="chickenPic">
+        <p id="poultryStockText">Poultry</p>
+        </a>
+      </div>
+      <div id="porkStock" class="col-md-2">
+        <a href="#porkCategories" class="pageJump">
+        <img src="../pictures/photos/products/boxPork.jpg" id="porkPic">
+        <p id="porkStockText">Pork</p>
+        </a>
+      </div>
+      <div id="beefStock" class="col-md-2">
+        <a href="#beefCategories" class="pageJump">
+        <img src="../pictures/photos/products/boxBeef.jpg" id="beefPic">
+        <p id="beefStockText">Beef</p>
+        </a>
+      </div>
+    </div>
+    <div id="productCategories" class="col-lg-8">
+      <div id="poultryCategories">Poultry</div>
+        <div class="meatWrapper">
+          <p class="meatTitle">Legs</p>
+          <a data-toggle="modal" data-target="#wholeLegModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/wholeLeg.jpg" class="products">
+              <p class="text">Whole Leg</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#legQuarterModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/legQuarter.jpeg" class="products">
+              <p class="text">Leg Quarter</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#legMeatModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/legMeat.jpg" class="products">
+              <p class="text">Leg Meat</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#legSkinModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/legSkinOn.jpg" class="products">
+              <p class="text noWrap">Skin-On</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#legDiceModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/legDice.jpg" class="products">
+              <p class="text">Diced</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#legStripModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/legStrips.jpg" class="products">
+              <p class="text">Strip</p>
+            </div>
+          </a>
+        </div>
+        <div class="meatWrapper">
+          <p class="meatTitle">Thigh</p>
+          <a data-toggle="modal" data-target="#boneInThighModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/boneInThigh2.jpg" class="products">
+              <p class="text noWrap" id="boneIn">Bone-in Thigh</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#thighMeatModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/thighMeat.jpg" class="products">
+              <p class="text">Thigh Meat</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#thighSkinOnModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/thighSkinOn.jpg" class="products">
+              <p class="text noWrap">Skin-On</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#legDiceModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/legDice.jpg" class="products">
+              <p class="text">Diced</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#legStripModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/legStrips.jpg" class="products">
+              <p class="text">Strip</p>
+            </div>
+          </a>
+          <a data-toggle="modal" data-target="#thighButterflyModal">
+            <div class="pics">
+              <img src="../pictures/photos/products/thighButterfly.jpg" class="products">
+              <p class="text">Butterfly</p>
+            </div>
+          </a>
+        </div>
+          <div class="meatWrapper">
+            <p class="meatTitle">Breasts</p>
+            <a data-toggle="modal" data-target="#breastWholeModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/breastWhole.jpg" class="products">
+                <p class="text">Whole Breast</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#breastMeatModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/breastMeat.jpg" class="products">
+                <p class="text">Breast Meat</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#breastPortionModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/breastPortion.jpg" class="products">
+                <p class="text">Portions</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#breastDicedModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/breastDiced.jpg" class="products">
+                <p class="text">Diced</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#breastSliceModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/breastSlice.jpg" class="products">
+                <p class="text">Slice</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#breastStripModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/breastStrip.jpg" class="products">
+                <p class="text">Strip</p>
+              </div>
+            </a>
+          </div>
+          <div class="meatWrapper">
+            <p class="meatTitle">Miscellaneous</p>
+            <a data-toggle="modal" data-target="#partyWingModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/partyWing3.jpg" class="products">
+                <p class="text">Wings</p>
+              </div>
+            </a>
+          </div>
+          <div id="porkCategories">Pork</div>
+          <div class="meatWrapper">
+            <p class="meatTitle">Pork</p>
+            <a data-toggle="modal" data-target="#porkChopModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/porkChop2.jpg" class="products">
+                <p class="text">Pork Chop</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#miscutPorkChopModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/porkChop3.jpg" class="products">
+                <p class="text">Mis-Cut Chop</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#skinOnModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/skinonpb.jpg" class="products">
+                <p class="text">Skin-On Belly</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#collarButtModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/pcollarbutt.jpg" class="products">
+                <p class="text">Collar Butt</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#porkNeckModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/porkNeck.jpg" class="products">
+                <p class="text">Neck Bone</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#porkCushionModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/porkCushion.jpg" class="products">
+                <p class="text">Cushion Meat</p>
+              </div>
+            </a>
+          </div>
+          <div class="meatWrapper">
+            <p class="meatTitle">Pork</p>
+            <a data-toggle="modal" data-target="#brisketBoneModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/porkBrisketBone.jpg" class="products">
+                <p class="text">Brisket Bone</p>
+              </div>
+            </a>
+          </div>
+          <div id="beefCategories">Beef</div>
+          <div class="meatWrapper">
+            <p class="meatTitle">Beef</p>
+            <a data-toggle="modal" data-target="#beefSliceModal">
+              <div class="pics">
+                <img src="../pictures/photos/products/bs.jpg" class="products">
+                <p class="text">Beef Slice</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#shortRib3Modal">
+              <div class="pics">
+                <img src="../pictures/photos/products/bsr3.jpg" class="products">
+                <p class="text">Short Rib 3 Bone</p>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#shortRib4Modal">
+              <div class="pics">
+                <img src="../pictures/photos/products/bsr4.jpg" class="products">
+                <p class="text">Short Rib 4 Bone</p>
+              </div>
+            </a>
+          </div>
+      </div>
+    </div>
+
+<div id="wholeLegModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Whole Leg</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/wholeLeg.jpg" id="wholeLeg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="legQuarterModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leg Quarter</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/legQuarter.jpeg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="legMeatModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leg Meat</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/legMeat.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="legSkinModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leg Skin On</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/legSkinOn.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="legDiceModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leg Dice</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/legDice.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="legStripModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leg Strips</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/legStrips.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="boneInThighModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Bone In Thigh</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/boneInThigh2.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="thighMeatModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Thigh Meat</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/thighMeat.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="thighSkinOnModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Thigh Skin On</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/thighSkinOn.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="legDiceModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leg Dice</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/legDice.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="legStripModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Leg Strip</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/legStrips.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="thighButterflyModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Thigh Butterfly</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/thighButterfly.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="breastWholeModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Breast Whole</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/breastWhole.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="breastMeatModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Breast Meat</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/breastMeat.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="breastPortionModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Breast Portion</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/breastPortion.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="breastDicedModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Breast Diced</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/breastDiced.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="breastSliceModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Breast Slice</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/breastSlice.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="breastStripModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Breast Strip</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/breastStrip.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="partyWingModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Wings</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/partyWing3.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="porkChopModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Pork Chop</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/porkChop2.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="miscutPorkChopModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Mis Cut Pork Chop</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/porkChop3.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="skinOnModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Skin On Pork Belly</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/skinonpb.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="collarButtModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Collar Butt</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/pcollarbutt.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="porkNeckModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Neck Bone</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/porkNeck.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="porkCushionModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cushion Meat</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/porkCushion.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="brisketBoneModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Brisket Bone</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/porkBrisketBone.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="beefSliceModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Beef Slice</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/bs.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="shortRib3Modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Beef Slice</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/bsr3.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="shortRib4Modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Beef Slice</h4>
+      </div>
+      <div class="modal-body">
+        <img src="../pictures/photos/products/bsr4.jpg" class="modalPic">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/scroll.js"></script>
+<!-- <script type="text/javascript" src="../js/jquery.leanModal.min.js"></script> -->
+<!-- <script type="text/javascript" src="../js/modal.js"></script> -->
+</body>
+
+
+
+
+
+
+
+
+
+            <!-- <div id="bigChicken">
+              <img src="../pictures/products/breastMeat.jpg">
+            </div> -->
+        <!-- <div id="pork">
+          <img src="../pictures/products/porkChop.jpg" class="products">
+        </div>
+        <div id="beef">
+          <img src="../pictures/products/beefSlice.jpg" class="products">
+        </div> -->

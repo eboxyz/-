@@ -1,0 +1,170 @@
+.background{
+  background-color: #eeecd5
+}
+
+#topWrapper{
+  position: relative;
+  display: inline-block;
+  width: 100%
+}
+
+.logo{
+  width: 500px;
+  height: 105px;
+  max-width: 50%;
+  background-image: url(../pictures/url.jpg);
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+
+.flex-nav ul {
+  list-style: none;
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: right;
+  max-width: 40%;
+  left: 28%;
+  top: 1%;
+  position: relative;
+  font-weight: bold
+}
+
+.flex-nav li{
+  flex:2.5;
+  z-index: 1;
+}
+
+li{
+  text-align: center;
+}
+
+li a{
+  display: block;
+  z-index: 1;
+  max-width: 100%;
+  color: black;
+  font-size: 1.3em;
+  margin: 1%, 1%, 0, 1%;
+
+}
+
+a{
+  text-decoration: none !important
+}
+
+a:hover{
+  color: red !important;
+  opacity: 0.8;
+}
+
+#content{
+  margin-left: 1%;
+}
+
+#contactPicture{
+  margin-top: 1%;
+  margin-left: 24%;
+  max-height: 350px;
+  top: -10px;
+  max-width: 690px;
+  height: 100%;
+  width: 100%;
+  background-image: url('../pictures/pano/goldenPoultryOver.jpg');
+  background-size: cover;
+  background-position: center ;
+}
+
+#contact{
+  margin-left: 1%;
+}
+
+#contactForm{
+  text-align: center;
+  height: 50%;
+}
+
+#contactTitle{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+form{
+  display: flex;
+  position: absolute;
+  left: 35%;
+}
+
+#formLeft{
+  position: relative;
+  right: 5%;
+  top: 50%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+}
+
+#formRight{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left;
+}
+
+#textbox{
+  margin-bottom: 14%;
+  display: inline-block;
+  resize: none;
+  height: 150px;
+}
+
+#locations{
+  max-height: 100%;
+}
+
+.map{
+  border: 2px black solid;
+  height: 400px;
+  width: 400px;
+  display: inline-block
+}
+
+.location{
+  border: 2px black solid;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+#contactBtn{
+  position: relative;
+  bottom: 17px;
+}
+
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+  #contactPicture{
+    margin-left: 31%;
+  }
+
+  #aboutText{
+    margin-left: 31%;
+  }
+
+  #contactForm {
+    position: relative;
+    left: 93px;
+  }
+
+
+}
+
+
+
+
+
+

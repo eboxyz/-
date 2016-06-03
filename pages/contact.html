@@ -1,0 +1,69 @@
+<head>
+  <title>Leyen Food</title>
+    <link rel="stylesheet" type="text/css" href="../style/contactstyle.css">
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Old+Standard+TT' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="background">
+  <div id="topWrapper">
+    <div class="logo"></div>
+    <!-- <h1 id="company">Leyen Food</h1> -->
+    <!-- <h3 id="company">Call us at: -->
+    <!-- <br> -->
+   <!-- 1(626) 333 8812</h3> -->
+  </div>
+  <nav class="flex-nav">
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="vendor.html">Vendor</a></li>
+      <li><a href="location.html">Locations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <div id="contactPicture">
+    </div>
+    <div id="contact"><h3 id="contactTitle">Contact Leyen Food</h3>
+      <div id="contactForm">
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxOWgOd3ReMi06zoe65ZXWBtnNECHfFqaoDtB6oysGVitVqVJs/exec">
+          <div id="formLeft">
+          Full Name:<br><input class="form-group" type="text" name="fullName">
+          <br>
+          Company:<br>
+          <input class="form-group" type="text" name="company">
+          <br>
+          Phone:<br>
+          <input class="form-group" type="text" name="phone">
+          <br>
+          E-mail:<br>
+          <input class="form-group" type="text" name="email">
+          <br>
+          </div>
+          <div id="formRight">
+          Comment:
+          <textarea id="textbox" name="textbox" class="form-control" form="gform"></textarea>
+          <input type="submit" class="btn btn-danger btn-md" id="contactBtn">
+          </div>
+        </form>
+      </div>
+    </div>
+    <div style="display:none;" id="thankyou_message">
+      <h2>Thanks for contacting us. We will respond soon!</h2>
+    </div>
+  </div>
+  <!-- <script src="../js/contact.js"></script> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
+  <!-- <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
+</body>

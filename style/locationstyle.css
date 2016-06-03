@@ -1,0 +1,161 @@
+.background{
+  background-color: #eeecd5
+}
+
+#topWrapper{
+  position: relative;
+  display: inline-block;
+  width: 100%
+}
+
+.logo{
+  width: 500px;
+  height: 105px;
+  max-width: 50%;
+  background-image: url(../pictures/url.jpg);
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+
+.flex-nav ul {
+  list-style: none;
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: right;
+  max-width: 40%;
+  left: 28%;
+  top: 1%;
+  position: relative;
+  font-weight: bold
+}
+
+.flex-nav li{
+  flex:2.5;
+  z-index: 1;
+}
+
+li{
+  text-align: center;
+}
+
+li a{
+  display: block;
+  z-index: 1;
+  max-width: 100%;
+  color: black;
+  font-size: 1.3em;
+  margin: 1%, 1%, 0, 1%;
+}
+
+a{
+  text-decoration: none !important
+}
+
+a:hover{
+  color: red !important;
+  opacity: 0.8;
+}
+
+#content{
+  height: 650px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#myCarousel{
+  margin-left: 25%;
+  margin-right: 10%;
+  width: 55%;
+  height: 350px;
+}
+
+.carousel-inner > .item > .slides {
+  margin: 0 auto;
+}
+
+.slides {
+  width: 100%;
+}
+
+.item {
+  width: 100%;
+}
+
+.carousel-inner {
+  width: 1000px;
+  height: 500px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: none !important;
+  filter: progid: none !important;
+  outline: 0;
+}
+
+.carousel-indicators{
+  margin-bottom: 0.5%;
+}
+
+#aboutLocation{
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 20%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.googleLocations{
+  position: relative;
+  left: 22%;
+  margin: 3%;
+  display: flex;
+}
+
+.locationInfo{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 10px;
+  max-width: 200px;
+  max-height: 250px;
+  height: 250px;
+  width: 200px;
+}
+
+.locationImage{
+  max-height: 200px;
+  max-width: 200px;
+  height: 100%;
+  width: 100%;
+}
+
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+ #myCarousel {
+    margin-left: 31%;
+    margin-right: 10%;
+    max-height: 350px;
+    max-width: 690px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #aboutLocation {
+    margin-top: 5px;
+    margin-left: 31%;
+    max-width: 690;
+    width: 100%;
+  }
+
+  .googleLocations{
+    left: 28%;
+  }
+
+}

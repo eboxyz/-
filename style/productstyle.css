@@ -1,0 +1,402 @@
+.background{
+  background-color: #eeecd5
+}
+
+#topWrapper{
+  position: relative;
+  display: inline-block;
+  width: 100%
+}
+
+.logo{
+  width: 500px;
+  height: 105px;
+  max-width: 50%;
+  background-image: url(../pictures/url.jpg);
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+
+.flex-nav ul {
+  list-style: none;
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: right;
+  max-width: 40%;
+  left: 28%;
+  top: 1%;
+  position: relative;
+  font-weight: bold
+}
+
+.flex-nav li{
+  flex:2.5;
+  z-index: 1;
+}
+
+li{
+  text-align: center;
+}
+
+li a{
+  display: block;
+  z-index: 1;
+  max-width: 100%;
+  color: black;
+  font-size: 1.3em;
+  margin: 1%, 1%, 0, 1%;
+
+}
+
+a{
+  text-decoration: none !important
+}
+
+a:hover{
+  color: red !important;
+  opacity: 0.8;
+}
+
+#content{
+  height: 650px;
+  /*margin-top*/
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+#productPicture{
+  margin-top: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 55%;
+  top: -10px;
+  max-width: 90%;
+  width: auto;
+}
+
+#chickenStock{
+  max-width: 68%;
+}
+#chickenPic{
+  height:362px;
+  width: 550px;
+}
+
+#porkStock{
+  max-width: 30%;
+  position: relative;
+  left: 19.1%;
+  margin-bottom: -20px;
+}
+
+#porkPic{
+  height: 180px;
+  width: 200px;
+  vertical-align: bottom;
+}
+
+#beefStock{
+  max-width: 20%;
+  position: relative;
+  left: 19.1%;
+
+}
+
+
+#beefPic{
+  height: 175px;
+  width: 200px;
+  position: relative;
+  top: -25px;
+}
+
+#beefStockText{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  position: relative;
+  bottom: 130px;
+  left: 75px;
+  font-size: 30px;
+}
+
+#porkStock{
+  float: left;
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#poultryStockText{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  position: relative;
+  bottom: 215px;
+  left: 240px;
+  font-size: 45px;
+}
+
+#porkStockText{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  position: relative;
+  bottom: 110px;
+  left: 80px;
+  font-size: 30px;
+}
+
+
+
+#productCategories{
+  position: relative;
+  left: 10%;
+}
+
+#porkCategories{
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  left: 15%;
+  margin: 3%;
+  bottom: 25px;
+  top: 20px;
+}
+
+#poultryCategories{
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  left: 15%;
+  margin: 3%;
+  top: 10px;
+}
+
+#beefCategories{
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  display: inline;
+  position: relative;
+  left: 15%;
+  margin: 3%;
+  top: 20px;
+}
+
+.meatWrapper{
+  position: relative;
+  top: 20px;
+}
+
+.pics{
+  max-width: 12%;
+  left: 16%;
+  margin: 13px;
+  display: inline-flex;
+  position: relative;
+}
+.pics:hover{
+  color: black;
+  opacity: 0.8;
+}
+
+.pics .text{
+  visibility:hidden;
+  position: relative;
+  right: 80px;
+  top: 45px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.noWrap{
+  white-space: nowrap;
+}
+
+#boneIn{
+  right: 100px;
+  bottom: 15px;
+}
+
+.pics:hover .text{
+  visibility:visible;
+}
+
+#chickenStock #poultryStockText{
+  visibility: hidden;
+}
+
+#chickenStock{
+  color: black;
+  opacity: 1;
+  transition: opacity 0.2s;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+#chickenStock:hover{
+  color: black;
+  opacity: 0.8;
+}
+
+#chickenStock:hover #poultryStockText{
+  visibility: visible;
+}
+
+#porkStock #porkStockText{
+  visibility: hidden;
+}
+
+#porkStock{
+  color: black;
+  opacity: 1;
+  transition: opacity 0.2s;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+#porkStock:hover{
+  color: black;
+  opacity: 0.8;
+}
+#porkStock:hover #porkStockText{
+  visibility: visible;
+}
+
+#beefStock #beefStockText{
+  visibility: hidden;
+}
+
+#beefStock{
+  color: black;
+  opacity: 1;
+  transition: opacity 0.2s;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+#beefStock:hover{
+  color: black;
+  opacity: 0.8;
+}
+#beefStock:hover #beefStockText{
+  visibility: visible;
+}
+
+
+#chicken2{
+  max-width: 150px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+#pork{
+  display: inline-block;
+  max-width: 150px;
+  margin-left: 25%;
+  position: relative;
+  vertical-align: top;
+}
+
+#beef{
+  max-width: 150px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.products{
+  height: 113px;
+  width: 113px;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  box-shadow: 0 0 2px #888;
+  margin: 5px;
+}
+
+.meatTitle{
+  font-family: 'Josefin Sans', sans-serif;
+  position: relative;
+  left: 22%;
+  font-size: 22px;
+  margin-bottom: -10px;
+}
+
+#lean_overlay {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
+}
+
+.modal{
+  display: none;
+}
+
+.modalPic{
+  max-height: 50%;
+  max-width: 100%;
+  width: 100%;
+  height: 70%;
+}
+
+@media (min-width: 320px) and (max-width:800px){
+  .flex-nav ul{
+    left: 22%;
+    max-width: 55%;
+  }
+
+  #homePicture{
+    margin-left: 18%;
+  }
+
+  #aboutText{
+    margin-left: 18%;
+  }
+
+}
+
+
+
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+  .flex-nav ul {
+    max-width: 55%;
+    left: 28%;
+  }
+
+  #productPicture{
+    max-width: 40%;
+    margin-left: 27%;
+  }
+
+  #productCategories {
+    margin-left: 7%;
+    max-width: 1000px;
+  }
+
+}
+
+
+

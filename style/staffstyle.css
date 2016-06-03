@@ -1,0 +1,192 @@
+.background{
+  background-color: #eeecd5
+}
+
+#topWrapper{
+  position: relative;
+  display: inline-block;
+  width: 100%
+}
+
+.logo{
+  width: 500px;
+  height: 105px;
+  max-width: 50%;
+  background-image: url(../pictures/url.jpg);
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: inline-block;
+  margin-left: 30%;
+  margin-bottom: 1%;
+}
+
+.flex-nav ul {
+  list-style: none;
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: right;
+  max-width: 40%;
+  left: 28%;
+  top: 1%;
+  position: relative;
+  font-weight: bold
+}
+
+.flex-nav li{
+  flex:2.5;
+  z-index: 1;
+}
+
+.nav ul{
+  display: flex;
+  position: relative;
+  left: 20%;
+  list-style: none;
+  top: 5px;
+}
+
+.nav li{
+  z-index: 1;
+  flex: 0.2;
+}
+
+li{
+  text-align: center;
+}
+
+li a{
+  display: block;
+  z-index: 1;
+  max-width: 100%;
+  color: black;
+  font-size: 1.3em;
+  margin: 1%, 1%, 0, 1%;
+}
+
+a{
+  text-decoration: none !important
+}
+
+a:hover{
+  color: red !important;
+  opacity: 0.8;
+}
+
+
+ul #categoryFlex{
+  display: flex;
+  position: relative;
+  left: 20%;
+  list-style: none;
+  top: 5px;
+}
+
+li .categories{
+  z-index: 1;
+  flex: 0.2;
+}
+
+#content{
+  height: 650px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+#staffPicture{
+  margin-top: 1%;
+  margin-left: 24%;
+  max-height: 350px;
+  max-width: 690px;
+  height: 100%;
+  width: 100%;
+  background-image: url('../pictures/pano/goldenPoultryOver.jpg');
+  background-size: cover;
+  background-position: center ;
+}
+
+#staffCategories{
+  position: relative;
+  top: 20px;
+  left: -40px;
+}
+
+.categories{
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  top: 20px;
+}
+
+#salesPeople{
+  max-width: 13%;
+  margin-left: 29.5%;
+  margin-bottom: 3%;
+  display: inline-block;
+  position: relative;
+}
+
+#ceo{
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  left: 144px;
+}
+
+.names{
+  margin-bottom: -1px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: left
+}
+
+.info{
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+}
+
+#accounting{
+  max-width: 150px;
+  display: inline-block;
+  margin-left: 0.75%;
+  position: relative;
+}
+
+#logistics{
+  max-width: 150px;
+  display: inline-block;
+  margin-left: 9.75%;
+  position: relative;
+}
+
+@media (min-width:1025px) {
+
+  .logo{
+    margin-left: 36%;
+  }
+
+  #staffPicture{
+    margin-left: 31%;
+  }
+
+  #staffCategories {
+    width: 90%;
+    left: 84px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
